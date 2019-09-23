@@ -1,0 +1,17 @@
+main: net.otlg.worlddiscarder.WorldDiscarder
+name: WorldDiscarder
+version: '1.0'
+description: Make the world a safer place <3
+author: Porama6400
+load: STARTUP
+
+commands:
+  worlddiscarder:
+    description: Toggle saving
+    aliases: [wd]
+    permission: worlddiscarder
+
+permissions:
+  worlddiscarder:
+      description: Use world discarder
+      default: op
